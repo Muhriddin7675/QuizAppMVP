@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_app"
+    android:orientation="vertical"
+    tools:context=".presentation.category.CategoryActivity">
+
+    <ImageView
+        android:id="@+id/top_category"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginHorizontal="12dp"
+        android:layout_marginVertical="16dp"
+        android:background="@drawable/bg_linner_layout"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/open_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="36sp"
+        android:background="?android:selectableItemBackgroundBorderless"
+        android:elevation="150dp"
+        android:src="@drawable/ic_info"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/sciences_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/my_font2"
+        android:text="@string/sciences"
+        android:textColor="#fff"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@id/top_category"
+        app:layout_constraintEnd_toEndOf="@id/top_category"
+        app:layout_constraintStart_toStartOf="@id/top_category"
+        app:layout_constraintTop_toTopOf="@id/top_category"
+        app:layout_constraintVertical_bias="0.1" />
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="0dp"
+        android:layout_margin="8dp"
+        android:src="@drawable/image_sciences"
+        app:layout_constraintBottom_toBottomOf="@id/top_category"
+        app:layout_constraintEnd_toEndOf="@id/top_category"
+        app:layout_constraintStart_toStartOf="@id/top_category"
+        app:layout_constraintTop_toBottomOf="@id/sciences_text" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/top_category">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="4dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                android:layout_marginVertical="4dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/matematika"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginHorizontal="8dp"
+                    android:layout_marginVertical="4dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_linner_layout"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="0.7"
+                        android:padding="8dp"
+                        android:src="@drawable/image_matematika" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="0.3"
+                        android:fontFamily="@font/my_font2"
+                        android:gravity="center"
+                        android:text="@string/matematika"
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/kimyo"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginHorizontal="8dp"
+                    android:layout_marginVertical="4dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_linner_layout"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="0.7"
+                        android:padding="8dp"
+                        android:src="@drawable/image_kimyo"
+                        tools:ignore="ContentDescription,NestedWeights" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="0.3"
+                        android:fontFamily="@font/my_font2"
+                        android:gravity="center"
+                        android:text="@string/kimyo"
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/tarix"
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                android:layout_marginVertical="4dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginHorizontal="8dp"
+                    android:layout_marginVertical="4dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_linner_layout"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="0.7"
+                        android:padding="8dp"
+                        android:src="@drawable/image_tarix"
+                        tools:ignore="ContentDescription,NestedWeights" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="0.3"
+                        android:fontFamily="@font/my_font2"
+                        android:gravity="center"
+                        android:text="@string/tarix"
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/adabiyot"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginHorizontal="8dp"
+                    android:layout_marginVertical="4dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_linner_layout"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="0.7"
+                        android:padding="8dp"
+                        android:src="@drawable/image_adabiyot"
+                        tools:ignore="ContentDescription,NestedWeights" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="0.3"
+                        android:fontFamily="@font/my_font2"
+                        android:gravity="center"
+                        android:text="@string/adabiyot"
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                android:layout_marginVertical="4dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/english"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginHorizontal="8dp"
+                    android:layout_marginVertical="4dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_linner_layout"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="0.7"
+                        android:padding="8dp"
+                        android:src="@drawable/image_english"
+                        tools:ignore="ContentDescription,NestedWeights" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="0.3"
+                        android:fontFamily="@font/my_font2"
+                        android:gravity="center"
+                        android:text="@string/english"
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/fizika"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginHorizontal="8dp"
+                    android:layout_marginVertical="4dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_linner_layout"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="0.7"
+                        android:padding="16dp"
+                        android:src="@drawable/image_fizika"
+                        tools:ignore="ContentDescription,NestedWeights" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="0.3"
+                        android:fontFamily="@font/my_font2"
+                        android:gravity="center"
+                        android:text="@string/fizika"
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
