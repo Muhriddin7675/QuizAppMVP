@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">QuizAppMVP</string>
+    <string name="app_name">Science Quiz</string>
     <string name="_100">100%</string>
     <string name="menu">Menu</string>
     <string name="kimyo">Chemistry</string>
@@ -10,7 +10,7 @@
     <string name="sciences">Sciences</string>
     <string name="matematika">Mathematics</string>
     <string name="quiz_result">Quiz Result</string>
-    <string name="appInfo"> "Quiz App maktab darsligi fanlari bo'yicha bolimingizni mustahkamlash uchun yordam beradi. Bu ilovada quyidagi fanlar bo'yicha testlar mavjud.
+    <string name="appInfo"> "Quiz App maktab darsligi fanlari bo'yicha bilimingizni mustahkamlash uchun yordam beradi. Bu ilovada quyidagi fanlar bo'yicha testlar mavjud.
 
 Fizika: Mexanika, termofizika, elektromagnitizm, optika va boshqa fizika konseptlari.
 
@@ -29,4 +29,5 @@ Foydalanuvchilar uchun shakl bo'yicha test topshirish imkoniyati.
 Har bir fanni alohida testlari.
 Natijalarni saqlash va o'quvchining rivojlanishini monitoring qilish.
 "Quiz App" o'quvchilarga ilmiy fanlar bo'yicha umumiy o'quv materiallarini taqdim etadi va o'rganish, testlarda test topshirish va o'zlarining bilim darajalarini sinash imkoniyatini beradi.</string>
+    <string name="version_1_0_0">version 1.0.0</string>
 </resources>
