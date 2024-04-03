@@ -1,5 +1,7 @@
 package com.example.quizappmvp.presentation.main;
 
+import android.util.Log;
+
 import com.example.quizappmvp.data.model.QuestionData;
 
 import java.util.List;
@@ -38,7 +40,10 @@ public class MainPresenter implements MainContract.Presenter{
 
     @Override
     public void clickNextButton() {
-        view.showCount(currentPos);
+        if(currentPos != 9){
+            Log.d("TTT",currentPos + "");
+            view.showCount(currentPos);
+        }
         QuestionData question = questionData.get(currentPos);
         if(question.getAnswer().equals(question.getVariants()[selectIndex])){
          this.correctCount++;

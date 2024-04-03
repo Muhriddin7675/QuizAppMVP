@@ -21,12 +21,26 @@
         android:id="@+id/open_info"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="36sp"
+        android:layout_marginEnd="24dp"
         android:background="?android:selectableItemBackgroundBorderless"
         android:elevation="150dp"
         android:src="@drawable/ic_info"
+        app:layout_constraintBottom_toBottomOf="@id/sciences_text"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="@+id/sciences_text" />
+
+    <ImageView
+        android:id="@+id/dispatcher"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="24dp"
+        android:background="?android:selectableItemBackgroundBorderless"
+        android:elevation="150dp"
+        android:src="@drawable/ic_dispatchers"
+        app:layout_constraintBottom_toBottomOf="@+id/sciences_text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/sciences_text"
+        app:tint="@color/white" />
 
     <TextView
         android:id="@+id/sciences_text"

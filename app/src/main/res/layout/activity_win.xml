@@ -12,6 +12,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="20dp"
+        android:fontFamily="@font/my_font2"
         android:text="@string/quiz_result"
         android:textColor="#fff"
         android:textSize="36sp"
@@ -26,9 +27,9 @@
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="0dp"
+            android:layout_marginBottom="16dp"
             android:layout_weight="1"
-            android:src="@drawable/cup"
-            android:layout_marginBottom="16dp"/>
+            android:src="@drawable/cup" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -39,6 +40,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/my_font2"
                 android:gravity="center"
                 android:text="Congratulations !"
                 android:textColor="#fff"
@@ -49,6 +51,7 @@
                 android:id="@+id/corrent"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
+                android:fontFamily="@font/my_font2"
                 android:gravity="center"
                 android:text="Correct answers"
                 android:textColor="#00FF0A"
@@ -59,6 +62,7 @@
                 android:id="@+id/wrong"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
+                android:fontFamily="@font/my_font2"
                 android:gravity="center"
                 android:text="Wrong answers"
                 android:textColor="#F33729"
@@ -68,6 +72,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
+                android:fontFamily="@font/my_font2"
                 android:gravity="center"
                 android:text="Your result"
                 android:textColor="#00FFE7"
@@ -78,6 +83,7 @@
                 android:id="@+id/foiz"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:fontFamily="@font/my_font2"
                 android:gravity="center"
                 android:text="@string/_100"
                 android:textColor="#E91E63"
@@ -94,7 +100,8 @@
         android:layout_height="56dp"
         android:layout_gravity="bottom|center"
         android:layout_marginBottom="32dp"
-        android:background="@drawable/win_color"
+        android:background="@drawable/my_color_2"
+        android:fontFamily="@font/my_font2"
         android:text="@string/menu"
         android:textAllCaps="false"
         android:textColor="#fff"

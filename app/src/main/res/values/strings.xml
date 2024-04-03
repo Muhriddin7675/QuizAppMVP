@@ -2,13 +2,13 @@
     <string name="app_name">QuizAppMVP</string>
     <string name="_100">100%</string>
     <string name="menu">Menu</string>
-    <string name="kimyo">Kimyo</string>
-    <string name="tarix">Tarix</string>
-    <string name="adabiyot">Adabiyot</string>
+    <string name="kimyo">Chemistry</string>
+    <string name="tarix">History</string>
+    <string name="adabiyot">Literature</string>
     <string name="english">English</string>
-    <string name="fizika">Fizika</string>
+    <string name="fizika">Physics</string>
     <string name="sciences">Sciences</string>
-    <string name="matematika">Matematika</string>
+    <string name="matematika">Mathematics</string>
     <string name="quiz_result">Quiz Result</string>
     <string name="appInfo"> "Quiz App maktab darsligi fanlari bo'yicha bolimingizni mustahkamlash uchun yordam beradi. Bu ilovada quyidagi fanlar bo'yicha testlar mavjud.
 
