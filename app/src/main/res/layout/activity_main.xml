@@ -16,7 +16,6 @@
         <FrameLayout
             android:layout_width="match_parent"
             android:layout_height="56dp"
-            android:background="@color/item_color"
             android:padding="16dp">
 
             <ImageView
@@ -43,9 +42,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="16dp"
-            android:layout_marginTop="24dp"
+            android:layout_marginTop="8dp"
             android:layout_marginBottom="8dp"
-            app:cardBackgroundColor="@color/item_color"
+            app:cardBackgroundColor="#0596D8"
             app:cardCornerRadius="6dp">
 
             <TextView
@@ -55,8 +54,11 @@
                 android:fontFamily="@font/my_font2"
                 android:paddingHorizontal="16dp"
                 android:paddingVertical="8dp"
+                android:layout_margin="4dp"
                 android:text="@string/fab_transformation_scrim_behavior"
                 android:textColor="#fff"
+                android:background="@drawable/bg_linner"
+                android:backgroundTint="@color/item_color"
                 android:textStyle="bold" />
         </androidx.cardview.widget.CardView>
 

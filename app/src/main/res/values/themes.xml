@@ -1,7 +1,7 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
     <style name="Base.Theme.QuizAppMVP" parent="Theme.Material3.Light.NoActionBar">
-        <item name="colorPrimary">#E62196F3</item>
+        <item name="android:statusBarColor">@color/bg_app</item>
 
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
