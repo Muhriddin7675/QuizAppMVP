@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import androidx.activity.OnBackPressedCallback;
@@ -24,6 +25,7 @@ public class MainActivity extends AppCompatActivity implements MainContract.View
 private MainContract.Presenter presenter;
     private List<ViewGroup> groupsVariant;
     private List<ImageView> images;
+    private List<LinearLayout> cardViews;
     private List<TextView> texts;
     private TextView textQuestion;
     private Button btnFinish;
@@ -53,6 +55,12 @@ private MainContract.Presenter presenter;
        images.add(findViewById(R.id.image_variant_2));
        images.add(findViewById(R.id.image_variant_3));
        images.add(findViewById(R.id.image_variant_4));
+
+       cardViews = new ArrayList<>();
+       cardViews.add(findViewById(R.id.card_1));
+       cardViews.add(findViewById(R.id.card_2));
+       cardViews.add(findViewById(R.id.card_3));
+       cardViews.add(findViewById(R.id.card_4));
 
        texts = new ArrayList<>();
        texts.add(findViewById(R.id.text_varitant_1));
@@ -105,6 +113,7 @@ private MainContract.Presenter presenter;
 
     public void clearOldStates(int pos) {
     images.get(pos).setImageResource(R.drawable.un_check);
+    cardViews.get(pos).setBackgroundResource(R.drawable.bg_linear_2);
     findViewById(R.id.buttonNext).setBackgroundResource(R.drawable.my_color);
     }
 
@@ -123,7 +132,8 @@ private MainContract.Presenter presenter;
     @Override
     public void showSelectIndex(int index) {
     images.get(index).setImageResource(R.drawable.check);
-    findViewById(R.id.buttonNext).setBackgroundResource(R.drawable.my_color_2);
+        cardViews.get(index).setBackgroundResource(R.drawable.bg_linner_3);
+        findViewById(R.id.buttonNext).setBackgroundResource(R.drawable.my_color_2);
     }
 
     @Override
