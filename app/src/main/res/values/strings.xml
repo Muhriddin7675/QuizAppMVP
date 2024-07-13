@@ -10,25 +10,7 @@
     <string name="sciences">Sciences</string>
     <string name="matematika">Mathematics</string>
     <string name="quiz_result">Quiz Result</string>
-    <string name="appInfo"> "Quiz App maktab darsligi fanlari bo'yicha bilimingizni mustahkamlash uchun yordam beradi. Bu ilovada quyidagi fanlar bo'yicha testlar mavjud.
-
-Fizika: Mexanika, termofizika, elektromagnitizm, optika va boshqa fizika konseptlari.
-
-Tarix: Dunyo tarixi, kishilar tarixi, davlatlar tarixi, urushlar tarixi va boshqalar.
-
-Matematika: Algebra, geometriya, sonlar nazariyasi, funktsiyalar, soliq va boshqalar.
-
-Adabiyot: Adabiyotning mantiqiy va falsafi asoslari, shoir va yozuvchilar tarixi, dunyo adabiyoti, xalq adabiyoti va boshqalar.
-
-Kimyo: Atomlar va molekulalar kimyosi, termodinamika, kimyoviy reaksiyalar, kimyoviy elementlar va ularning xossalari, kimyoviy formulalar va boshqalar.
-
-Ingliz tili: Gaplashish, yozuvning qoidalari, tarjima va boshqa ko'plab mavzular.
-
-Ilovada quyidagi foydali xususiyatlar mavjud:
-Foydalanuvchilar uchun shakl bo'yicha test topshirish imkoniyati.
-Har bir fanni alohida testlari.
-Natijalarni saqlash va o'quvchining rivojlanishini monitoring qilish.
-"Quiz App" o'quvchilarga ilmiy fanlar bo'yicha umumiy o'quv materiallarini taqdim etadi va o'rganish, testlarda test topshirish va o'zlarining bilim darajalarini sinash imkoniyatini beradi.</string>
+    <string name="appInfo"> "Quiz App" helps you strengthen your knowledge in school subjects. The app includes tests in the following subjects:\n\nPhysics: Mechanics, thermophysics, electromagnetism, optics, and other physics concepts.\n\nHistory: World history, history of people, history of states, history of wars, and more.\nMathematics: Algebra, geometry, number theory, functions, calculus, and more.\n\nLiterature: Logical and philosophical foundations of literature, history of poets and writers, world literature, folk literature, and more.\n\nChemistry: Chemistry of atoms and molecules, thermodynamics, chemical reactions, chemical elements and their properties, chemical formulas, and more.\n\nEnglish: Speaking, writing rules, translation, and many other topics.\n\nThe app offers the following useful features:\n\nAbility for users to take tests by form.\nSeparate tests for each subject.\nSave results and monitor student progress.\n"Quiz App" provides students with general educational materials in scientific subjects and offers the opportunity to learn, take tests, and assess their knowledge levels.</string>
     <string name="version_1_0_0">version 1.0.0</string>
     <string name="quiz_info">Quiz Info</string>
     <string name="next">Next</string>
