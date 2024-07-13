@@ -37,7 +37,7 @@ public class CategoryActivity extends AppCompatActivity implements CategoryContr
         OnBackPressedCallback callback = new OnBackPressedCallback(true) {
             @Override
             public void handleOnBackPressed() {
-                new AlertDialog.Builder(CategoryActivity.this)
+                new AlertDialog.Builder(CategoryActivity.this,R.style.CustomAlertDialog)
                         .setTitle("Exit")
                         .setMessage("Do you want to exit ? :(")
                         .setPositiveButton("Yes", new DialogInterface.OnClickListener() {

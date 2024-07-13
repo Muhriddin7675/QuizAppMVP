@@ -2,11 +2,11 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="white2">#61E5EFE5</color>
-    <color name="myColor">#D208F311</color>
-    <color name="foizColor">#09FF13</color>
-        <color name="item_color">#3E9EFE</color>
+    <color name="testColor">#C32AE7FF</color>
+    <color name="myColor">#2D454F</color>
+    <color name="itemColor">#862AE7FF</color>
+    <color name="item_color">#00C7FE</color>
     <color name="card_color">#D5CBCB</color>
-    <color name="bg_app">#131B45</color>
+    <color name="bg_app">#111F26</color>
 
 </resources>

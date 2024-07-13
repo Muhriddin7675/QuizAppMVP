@@ -386,7 +386,7 @@ public class AppController {
                         "a) Navoiy", "b) Firdavsii", "c) Jomi", "d) G'ofir Almazoriy", "c) Jomi"));
                 list.add(new QuestionData("Qaysi asar \"Tong otgan kunlar\" haqidagi qasidaga ega?",
                         "a) \"Lison ut-Tayr\"", "b) \"Hayrat ul-abror\"", "c) \"Navro'znama\"", "d) \"Mahbub ul-Qulub\"", "c) \"Navro'znama\""));
-                list.add(new QuestionData("Qaysi asar \"Leyli va Majnun\" haqidagi she'riy qissani o'z ichiga olgan?",
+                list.add(new QuestionData("Qaysi asar \"Layli va Majnun\" haqidagi she'riy qissani o'z ichiga olgan?",
                         "a) \"Mahbub ul-Qulub\"", "b) \"G'aroyibot\"", "c) \"Hayrat ul-abror\"", "d) \"Navro'znama\"", "a) \"Mahbub ul-Qulub\""));
                 list.add(new QuestionData("Qaysi yozuvchi \"Hayrat ul-abror\" asarida \"Shoir\" nomli qasidani yozgan?",
                         "a) Navoiy", "b) Firdavsii", "c) Jomi", "d) G'ofir Almazoriy", "b) Firdavsii"));

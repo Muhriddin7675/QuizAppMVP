@@ -73,7 +73,7 @@ private MainContract.Presenter presenter;
             groupsVariant.get(i).setOnClickListener(v -> presenter.selectAnswer(index));
         }
         findViewById(R.id.back).setOnClickListener(v -> {
-          new AlertDialog.Builder(this)
+          new AlertDialog.Builder(this,R.style.CustomAlertDialog)
                   .setTitle("Exit")
                   .setMessage("Do you want to exit ?")
                   .setNegativeButton("No", (dialog, which) -> {})
@@ -83,7 +83,7 @@ private MainContract.Presenter presenter;
 
         btnNext.setOnClickListener(v-> presenter.clickNextButton());
         btnFinish.setOnClickListener(v-> {
-            new AlertDialog.Builder(this)
+            new AlertDialog.Builder(this,R.style.CustomAlertDialog)
                     .setTitle("Finish")
                     .setMessage("Do you want to finish ?")
                     .setNegativeButton("No", (dialog, which) -> {})
@@ -95,7 +95,7 @@ private MainContract.Presenter presenter;
         OnBackPressedCallback callback = new OnBackPressedCallback(true) {
             @Override
             public void handleOnBackPressed() {
-                new AlertDialog.Builder(MainActivity.this)
+                new AlertDialog.Builder(MainActivity.this,R.style.CustomAlertDialog)
                         .setTitle("Exit")
                         .setMessage("Do you want to exit ?")
                         .setNegativeButton("No", (dialog, which) -> {})
@@ -133,7 +133,7 @@ private MainContract.Presenter presenter;
     public void showSelectIndex(int index) {
     images.get(index).setImageResource(R.drawable.check);
         cardViews.get(index).setBackgroundResource(R.drawable.bg_linner_3);
-        findViewById(R.id.buttonNext).setBackgroundResource(R.drawable.my_color_2);
+        findViewById(R.id.buttonNext).setBackgroundResource(R.drawable.my_color);
     }
 
     @Override
